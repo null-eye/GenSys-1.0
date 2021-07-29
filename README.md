@@ -7,6 +7,7 @@
 Anu itu lho anjinggggggg
 
 <h4>Features</h4>
--- XMLRPC Bruteforce
--- Wordpress login page Bruteforce
-
+-- XMLRPC Bruteforce<br />
+<i>Bruteforce attack from xmlrpc.php on Wordpress CMS<br />
+-- Wordpress login Bruteforce<br />
+-- XMLRPC Scanner ( enable/disable)<br />
