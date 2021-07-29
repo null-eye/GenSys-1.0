@@ -7,7 +7,10 @@
 Anu itu lho anjinggggggg
 
 <h4>Features</h4>
--- XMLRPC Bruteforce<br />
-<i>Bruteforce attack from xmlrpc.php on Wordpress CMS<br />
+-- <i>XMLRPC Bruteforce</i><br />
+Bruteforce attack from xmlrpc.php on Wordpress CMS<br><br />
 -- Wordpress login Bruteforce<br />
 -- XMLRPC Scanner ( enable/disable)<br />
+
+<h4>Usage</4>
+-- ntar
