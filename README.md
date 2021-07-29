@@ -9,8 +9,10 @@ Anu itu lho anjinggggggg
 <h4>Features</h4>
 -- <i>XMLRPC Bruteforce</i><br />
 Bruteforce attack from xmlrpc.php on Wordpress CMS<br><br />
--- Wordpress login Bruteforce<br />
--- XMLRPC Scanner ( enable/disable)<br />
+-- <i>Wordpress login Bruteforce</i><br />
+Bruteforce attack from wp-login.php on Wordpress CMS<br><br />
+-- <i>XMLRPC Scanner ( enable/disable)</i><br />
 
-<h4>Usage</4>
--- ntar
+<h4>Usage</h4>
+-- <i>declare</i><br><br />
+example : dec.byUsers<br>
