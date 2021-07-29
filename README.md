@@ -4,11 +4,7 @@
 <b>A Small Bruteforce Attack</b>
 <br>
 <p>-- Uploaded : 30/07/2021</p>
-<br />
-<p>-- Updated : 30/07/2021</p>
-<br />
-<p>-- Lang : Bash Scripting</p>
-<br />
+Anu itu lho anjinggggggg
 
 <h3>Features</h3>
 -- XMLRPC Bruteforce
