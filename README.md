@@ -4,11 +4,8 @@
 Realesed on June 2021 with bash scripting.<br>
 
 <h4>Features:</h4>
--- XMLRPC Bruteforce<br />
+<b>XMLRPC Bruteforce</b><br />
 <i>Bruteforce attack from xmlrpc.php on Wordpress CMS</i><br><br />
--- Wordpress login Bruteforce<br />
-<i>Bruteforce attack from wp-login.php on Wordpress CMS</i><br><br />
--- <i>XMLRPC Scanner ( enable/disable)</i><br />
 
 <h4>Usage:</h4>
 -- <i>declare</i><br><br />
