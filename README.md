@@ -10,4 +10,6 @@ Realesed on June 2021 with bash scripting.<br>
 <h4>Usage:</h4>
 -- <i>declare</i><br><br />
 eg: dec.byUsers<br>
-> git clone https://github.com/Demon-C4/GenSys-1.0
+```
+git clone https://github.com/Demon-C4/GenSys-1.0
+```
