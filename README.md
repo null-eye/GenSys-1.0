@@ -9,12 +9,18 @@ First Realesed on July 2021 with bash scripting.<br>
 
 <h3>Features:</h3>
 
-**on version 1.0 July 2021**
+**on version 1.0.0 July 2021**
 
 1. Bruteforce attack from xmlrpc.php on Wordpress CMS
 2. Saved result in such file
 3. Customize the file wordlist
 
+**on version 1.0.1 Agt 2021**
+
+1. Bruteforce attack from xmlrpc.php on WordPress CMS
+2. Saved result in such file
+3. Bruteforce attack from wp-login.php on WordPress CMS
+4. Now you can added custom POST Method
 
 <h3>Installation</h3>
 
