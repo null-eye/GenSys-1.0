@@ -3,6 +3,7 @@
 
 
 [![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=flat&logo=github)]()
+[![Build](https://img.shields.io/badge/Author-%20C4%20-blue?style=flat)]()
 [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/Demon-C4/GenSys-1.0/main/gensys)]()
 
 <h2>Information</h2>
