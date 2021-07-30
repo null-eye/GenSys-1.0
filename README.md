@@ -10,3 +10,4 @@ Realesed on June 2021 with bash scripting.<br>
 <h4>Usage:</h4>
 -- <i>declare</i><br><br />
 eg: dec.byUsers<br>
+<textarea>git clone</textarea>
