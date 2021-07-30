@@ -2,9 +2,9 @@
 <br />
 
 
-[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=flat&logo=github)]()
-[![Build](https://img.shields.io/badge/Author-%20C4%20-blue?style=flat)]()
+[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/Author-%20C4%20-blue?style=for-the-badge)]()
 [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/Demon-C4/GenSys-1.0/main/gensys)]()
+[![Build](https://img.shields.io/badge/404akaC4@protonmail.ch-8B89CC?style=flat&logo=protonmail&logoColor=white)]()
 
 <h2>Information</h2>
 First Realesed on July 2021 with bash scripting.<br>
