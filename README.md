@@ -1,5 +1,10 @@
 <img src="https://raw.githubusercontent.com/00C4/GenSys-1.0/main/20210730_043636.jpg?token=AVAKFLL5732O7NFDG6OHRVLBAMTCC">
 <br />
+
+
+[![Build](https://img.shields.io/badge/GenSys%201.0%20-by%20C4%20-orange?style=for-the-badge&logo=appveyor)]()<br>
+
+
 <h2>Information</h2>
 First Realesed on July 2021 with bash scripting.<br>
 
