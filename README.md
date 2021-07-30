@@ -29,13 +29,13 @@ And then you can run the Gensys Toolkit.
 Just type ` <functionName> ` in command line after entering GenSys Toolkit , for more example:
 
 ```
- dec.byUsers
+gensys/~1.0 ~>dec.byUsers
 ```
 
 - performing bruteforce with username list first
 
 ```
- dec.byURLs
+gensys/~1.0 ~>dec.byURLs
 ```
 
 - performing bruteforce with URLs first
