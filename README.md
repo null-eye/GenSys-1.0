@@ -3,26 +3,40 @@
 <h2>GenSys-1.0</h2>
 Realesed on June 2021 with bash scripting.<br>
 
-**Features:** <br><br>
+<h3>Features:</h3>
 
-**XMLRPC Bruteforce** <br>
-_Bruteforce attack from xmlrpc.php on Wordpress CMS_
+**on version 1.0**
+
+1. Bruteforce attack from xmlrpc.php on Wordpress CMS
+2. Saved result in such file
+3. Customize the file wordlist
 
 
-**Installation:**
+<h3>Installation</h3>
+
+Easy installation for Gensys, you :-(just need:
+
 ```
 - apt install git
 - git clone https://github.com/Demon-C4/GenSys-1.0
 ```
 
-**Usage:** <br><br>
-` <functionName> ` for more example:
+And then you can run the Gensys command line.
 
-> dec.byUsers
+<h3>How to Use</h3>
+
+
+Just type ` <functionName> ` in command line after entering GenSys Toolkit , for more example:
+
+```
+ dec.byUsers
+```
 
 - performing bruteforce with username list first
 
-> dec.byURLs
+```
+ dec.byURLs
+```
 
 - performing bruteforce with URLs first
 
