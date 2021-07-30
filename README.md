@@ -7,7 +7,16 @@ Realesed on June 2021 with bash scripting.<br>
 <b>XMLRPC Bruteforce</b><br />
 <i>Bruteforce attack from xmlrpc.php on Wordpress CMS</i><br><br />
 
+Installation:
+```
+
+apt install git
+git clone https://github.com/Demon-C4/GenSys-1.0
+
+```
+
 Usage:
 ```
-git clone https://github.com/Demon-C4/GenSys-1.0
+dec.byUsers
 ```
+this command will perform bruteforce with username list first
