@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/00C4/GenSys-1.0/main/20210730_043636.jpg?token=AVAKFLL5732O7NFDG6OHRVLBAMTCC">
 <br />
-<h2>GenSys-1.0</h2>
+<h2>Information</h2>
 First Realesed on July 2021 with bash scripting.<br>
 
 <h3>Features:</h3>
