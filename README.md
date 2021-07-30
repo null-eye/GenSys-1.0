@@ -7,9 +7,7 @@ Realesed on June 2021 with bash scripting.<br>
 <b>XMLRPC Bruteforce</b><br />
 <i>Bruteforce attack from xmlrpc.php on Wordpress CMS</i><br><br />
 
-<h4>Usage:</h4>
--- <i>declare</i><br><br />
-eg: dec.byUsers<br>
+Usage:
 ```
 git clone https://github.com/Demon-C4/GenSys-1.0
 ```
