@@ -2,8 +2,8 @@
 <br />
 
 
-[![Build](https://img.shields.io/badge/GenSys%201.0%20-by%20C4%20-orange?style=for-the-badge&logo=appveyor)]()<br>
-
+[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=flat&logo=github)]()
+[![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/Demon-C4/GenSys-1.0/main/gensys)]()
 
 <h2>Information</h2>
 First Realesed on July 2021 with bash scripting.<br>
@@ -48,3 +48,7 @@ gensys/~1.0 ~>dec.byURLs
 <br>
 
 > **NOTE:** you can type `help` in Gensys if you not understand anymore
+
+<h3>About me</h3>
+
+[![Build](https://github-readme-stats.vercel.app/api?username=Demon-C4&theme=blue-green)]()
