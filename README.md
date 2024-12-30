@@ -1,9 +1,9 @@
-<img src="https://raw.githubusercontent.com/Demon-C4/GenSys-1.0/main/logo.png">
+<img src="https://raw.githubusercontent.com/null-eye/GenSys-1.0/main/logo.png">
 <br />
 
 [![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/Author-%20C4%20-blue?style=for-the-badge)]()
 
-[![Build](https://img.shields.io/badge/%20July%202021%20-blue?style=flat&logo)]() [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/Demon-C4/GenSys-1.0/main/gensys)]()
+[![Build](https://img.shields.io/badge/%20July%202021%20-blue?style=flat&logo)]() [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/null-eye/GenSys-1.0/main/gensys)]()
 <h2>Information</h2>
 First Realesed on July 2021 with bash scripting.<br>
 
@@ -28,7 +28,7 @@ Easy installation for Gensys, you just need:
 
 ```
 - apt install git
-- git clone https://github.com/Demon-C4/GenSys-1.0
+- git clone https://github.com/null-eye/GenSys-1.0
 ```
 
 And then you can run the Gensys Toolkit.
@@ -56,4 +56,4 @@ gensys/~1.0 ~>dec.byURLs
 
 <h3>About me</h3>
 
-[![Build](https://github-readme-stats.vercel.app/api?username=Demon-C4&theme=blue-green)]()
+[![Build](https://github-readme-stats.vercel.app/api?username=0null-eye00&theme=blue-green)]()
