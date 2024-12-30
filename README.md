@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/null-eye/GenSys-1.0/main/logo.png">
 <br />
 
-[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/Author-%20C4%20-blue?style=for-the-badge)]()
+[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/Author-%20null-eye%20-blue?style=for-the-badge)]()
 
 [![Build](https://img.shields.io/badge/%20July%202021%20-blue?style=flat&logo)]() [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]() [![Build](https://badge-size.herokuapp.com/null-eye/GenSys-1.0/main/gensys)]()
 <h2>Information</h2>
