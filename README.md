@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/null-eye/GenSys-1.0/main/logo.png">
 <br />
 
-[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/null%2520eye?style=for-the-badge)]()
+[![Build](https://img.shields.io/badge/GenSys%201.0%20-orange?style=for-the-badge&logo=github)]() [![Build](https://img.shields.io/badge/null%20eye%20-black?style=flat-square&label=author&logo=github)]()
 
 [![Build](https://img.shields.io/badge/%20July%202021%20-blue?style=flat&logo)]() [![Build](https://img.shields.io/badge/version-1.0.1%20dbe%20-success?style=flat&logo)]()
 <h2>Information</h2>
@@ -54,6 +54,3 @@ gensys/~1.0 ~>dec.byURLs
 
 > **NOTE:** you can type `help` in Gensys if you not understand anymore
 
-<h3>About me</h3>
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=null-eye&show_icons=true&theme=radical)
